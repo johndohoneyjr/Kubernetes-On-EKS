@@ -1,0 +1,13 @@
+Kubectl commands
+kubectl config view
+kubectl cluster-info
+
+Your AWS Identity
+aws sts get-caller-identity
+
+Get a Token to Login into the Dashboard
+aws-iam-authenticator -i dohoney-eks-cluster token | jq -r .status.token
+
+AWS CLI EKS Commands
+aws eks list-clusters
+aws eks describe-cluster --name dohoney-eks-cluster
