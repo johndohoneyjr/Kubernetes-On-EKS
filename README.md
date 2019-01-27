@@ -1,4 +1,4 @@
-# Kubernetes-On-EK
+# Kubernetes-On-EKS
 
 Deploy a full AWS EKS cluster with Terraform to configure a Kubernetes Cluster
 
